@@ -1,0 +1,13 @@
+{
+    "name": "moderncipher/mvc-template",
+    "description": "Advanced PHP MVC with Docker support",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

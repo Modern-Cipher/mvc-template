@@ -1,0 +1,239 @@
+/* ==============================
+   PROJECT: MVC TEMPLATE
+   BY: MODERN CIPHER
+   ============================== */
+
+/* --- 1. FONT IMPORTS --- */
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/poppins-v24-latin-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/montserrat/montserrat-v31-latin-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/bebasneue/bebas-neue-v16-latin-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vermin Vibes';
+    src: url('../fonts/moderncipher/vermin-vibes/VerminVibesV-Zlg3.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* --- 2. GLOBAL LAYOUT & COLORS --- */
+
+:root {
+    --font-main:    'Poppins', sans-serif;
+    --font-title:   'Bebas Neue', cursive;
+    --font-brand:   'Vermin Vibes', cursive;
+    
+    --color-dark:   #1e1e1e;
+    --color-light:  #ffffff;
+    --color-gray:   #f4f4f4;
+    
+    /* BLUE GRADIENT VARIABLES */
+    --grad-blue-start: #00c6ff;
+    --grad-blue-end:   #0072ff;
+}
+
+body {
+    font-family:      var(--font-main);
+    margin:           0;
+    padding:          0;
+    background-color: var(--color-gray);
+    color:            var(--color-dark);
+    line-height:      1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* --- 3. HEADER (New!) --- */
+.main-header {
+    background-color: #111;
+    padding: 15px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-bottom: 3px solid transparent;
+    /* Gradient Border Trick */
+    border-image: linear-gradient(to right, var(--grad-blue-start), var(--grad-blue-end)) 1;
+}
+
+.header-content {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header-logo {
+    height: 40px;
+    width: auto;
+    margin-right: 15px;
+}
+
+.header-title {
+    font-family: var(--font-brand);
+    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+/* --- 4. MAIN CONTENT --- */
+
+.main-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+.main-title {
+    font-family: var(--font-title);
+    font-size: 5rem;
+    margin: 0;
+    color: var(--color-dark);
+    letter-spacing: 2px;
+    line-height: 1;
+}
+
+.sub-title {
+    font-family: var(--font-main);
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* --- 5. STATUS BOX (Gradient Blue) --- */
+
+.status-box {
+    background: var(--color-light);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Top Bar Gradient */
+.status-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: linear-gradient(to right, var(--grad-blue-start), var(--grad-blue-end));
+}
+
+.status-item {
+    margin: 10px 0;
+}
+
+.status-label {
+    display: block;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #888;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.status-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-dark);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Gradient Text for Time */
+.time-display {
+    background: -webkit-linear-gradient(45deg, var(--grad-blue-start), var(--grad-blue-end));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.status-divider {
+    height: 1px;
+    background: #eee;
+    margin: 20px 0;
+}
+
+.status-note {
+    font-size: 0.8rem;
+    color: #aaa;
+    font-style: italic;
+    margin-top: 15px;
+}
+
+/* --- 6. FOOTER BRANDING --- */
+
+.branding-footer {
+    background-color: #111;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+}
+
+/* Top Border Gradient for Footer */
+.branding-footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(to right, var(--grad-blue-start), var(--grad-blue-end));
+}
+
+.footer-text {
+    font-family: var(--font-brand);
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+    /* Blue Glow Effect */
+    text-shadow: 0 0 15px rgba(0, 198, 255, 0.3);
+}
+
+.footer-logo {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    opacity: 0.9;
+    transition: opacity 0.3s;
+}
+
+.footer-logo:hover {
+    opacity: 1;
+}

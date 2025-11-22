@@ -1,0 +1,1472 @@
+{
+  "name": "mvc-template",
+  "path": "c:\\Github\\mvc-template",
+  "type": "directory",
+  "children": [
+    {
+      "name": ".ddev",
+      "type": "folder",
+      "children": [
+        {
+          "name": ".dbimageBuild",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Dockerfile",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": ".homeadditions",
+          "type": "folder",
+          "children": [
+            {
+              "name": "README.txt",
+              "type": "file"
+            },
+            {
+              "name": "bash_aliases.example",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": ".webimageBuild",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Dockerfile",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "addon-metadata",
+          "type": "folder",
+          "children": [
+            {
+              "name": "phpmyadmin",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "manifest.yaml",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "apache",
+          "type": "folder",
+          "children": [
+            {
+              "name": "README.apache.txt",
+              "type": "file"
+            },
+            {
+              "name": "apache-site.conf",
+              "type": "file"
+            },
+            {
+              "name": "seconddocroot.conf.example",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "commands",
+          "type": "folder",
+          "children": [
+            {
+              "name": "db",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "README.txt",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "host",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "README.txt",
+                  "type": "file"
+                },
+                {
+                  "name": "phpmyadmin",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "web",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "README.txt",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": ".gitattributes",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "db-build",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Dockerfile.example",
+              "type": "file"
+            },
+            {
+              "name": "README.txt",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "homeadditions",
+          "type": "folder",
+          "children": [
+            {
+              "name": "README.txt",
+              "type": "file"
+            },
+            {
+              "name": "bash_aliases.example",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "mutagen",
+          "type": "folder",
+          "children": [
+            {
+              "name": ".start-synced",
+              "type": "file"
+            },
+            {
+              "name": "mutagen.yml",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "mysql",
+          "type": "folder",
+          "children": [
+            {
+              "name": "README.txt",
+              "type": "file"
+            },
+            {
+              "name": "character-set.cnf.example",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "nginx_full",
+          "type": "folder",
+          "children": [
+            {
+              "name": "README.nginx_full.txt",
+              "type": "file"
+            },
+            {
+              "name": "nginx-site.conf",
+              "type": "file"
+            },
+            {
+              "name": "seconddocroot.conf.example",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "php",
+          "type": "folder",
+          "children": [
+            {
+              "name": "README.txt",
+              "type": "file"
+            },
+            {
+              "name": "php-example.ini.example",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "providers",
+          "type": "folder",
+          "children": [
+            {
+              "name": "README.txt",
+              "type": "file"
+            },
+            {
+              "name": "acquia.yaml",
+              "type": "file"
+            },
+            {
+              "name": "git.yaml.example",
+              "type": "file"
+            },
+            {
+              "name": "lagoon.yaml",
+              "type": "file"
+            },
+            {
+              "name": "localfile.yaml.example",
+              "type": "file"
+            },
+            {
+              "name": "pantheon.yaml",
+              "type": "file"
+            },
+            {
+              "name": "platform.yaml",
+              "type": "file"
+            },
+            {
+              "name": "rsync.yaml.example",
+              "type": "file"
+            },
+            {
+              "name": "upsun.yaml",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "web-build",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Dockerfile.example",
+              "type": "file"
+            },
+            {
+              "name": "README.txt",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "web-entrypoint.d",
+          "type": "folder",
+          "children": [
+            {
+              "name": "README.txt",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "xhprof",
+          "type": "folder",
+          "children": [
+            {
+              "name": "xhprof_prepend.php",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": ".ddev-docker-compose-base.yaml",
+          "type": "file"
+        },
+        {
+          "name": ".ddev-docker-compose-full.yaml",
+          "type": "file"
+        },
+        {
+          "name": "config.yaml",
+          "type": "file"
+        },
+        {
+          "name": "docker-compose.phpmyadmin.yaml",
+          "type": "file"
+        },
+        {
+          "name": "docker-compose.phpmyadmin_norouter.yaml",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "name": "src",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Controllers",
+          "type": "folder",
+          "children": [
+            {
+              "name": "HomeController.php",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "Core",
+          "type": "folder",
+          "children": [
+            {
+              "name": "App.php",
+              "type": "file"
+            },
+            {
+              "name": "Config.php",
+              "type": "file"
+            },
+            {
+              "name": "Controller.php",
+              "type": "file"
+            },
+            {
+              "name": "Database.php",
+              "type": "file"
+            },
+            {
+              "name": "Timezone.php",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "Models",
+          "type": "folder"
+        },
+        {
+          "name": "Views",
+          "type": "folder",
+          "children": [
+            {
+              "name": "home",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "index.php",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vendor",
+      "type": "folder",
+      "children": [
+        {
+          "name": "composer",
+          "type": "folder",
+          "children": [
+            {
+              "name": "ClassLoader.php",
+              "type": "file"
+            },
+            {
+              "name": "InstalledVersions.php",
+              "type": "file"
+            },
+            {
+              "name": "LICENSE",
+              "type": "file"
+            },
+            {
+              "name": "autoload_classmap.php",
+              "type": "file"
+            },
+            {
+              "name": "autoload_files.php",
+              "type": "file"
+            },
+            {
+              "name": "autoload_namespaces.php",
+              "type": "file"
+            },
+            {
+              "name": "autoload_psr4.php",
+              "type": "file"
+            },
+            {
+              "name": "autoload_real.php",
+              "type": "file"
+            },
+            {
+              "name": "autoload_static.php",
+              "type": "file"
+            },
+            {
+              "name": "installed.json",
+              "type": "file"
+            },
+            {
+              "name": "installed.php",
+              "type": "file"
+            },
+            {
+              "name": "platform_check.php",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "graham-campbell",
+          "type": "folder",
+          "children": [
+            {
+              "name": "result-type",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "src",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Error.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "Result.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "Success.php",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "LICENSE",
+                  "type": "file"
+                },
+                {
+                  "name": "composer.json",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "phpmailer",
+          "type": "folder",
+          "children": [
+            {
+              "name": "phpmailer",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "language",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "phpmailer.lang-af.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-ar.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-as.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-az.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-ba.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-be.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-bg.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-bn.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-ca.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-cs.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-da.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-de.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-el.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-eo.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-es.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-et.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-fa.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-fi.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-fo.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-fr.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-gl.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-he.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-hi.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-hr.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-hu.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-hy.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-id.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-it.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-ja.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-ka.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-ko.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-ku.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-lt.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-lv.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-mg.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-mn.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-ms.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-nb.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-nl.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-pl.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-pt.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-pt_br.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-ro.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-ru.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-si.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-sk.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-sl.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-sr.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-sr_latn.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-sv.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-tl.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-tr.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-uk.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-ur.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-vi.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-zh.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "phpmailer.lang-zh_cn.php",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "src",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "DSNConfigurator.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "Exception.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "OAuth.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "OAuthTokenProvider.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "PHPMailer.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "POP3.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "SMTP.php",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "COMMITMENT",
+                  "type": "file"
+                },
+                {
+                  "name": "LICENSE",
+                  "type": "file"
+                },
+                {
+                  "name": "README.md",
+                  "type": "file"
+                },
+                {
+                  "name": "SECURITY.md",
+                  "type": "file"
+                },
+                {
+                  "name": "SMTPUTF8.md",
+                  "type": "file"
+                },
+                {
+                  "name": "VERSION",
+                  "type": "file"
+                },
+                {
+                  "name": "composer.json",
+                  "type": "file"
+                },
+                {
+                  "name": "get_oauth_token.php",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "phpoption",
+          "type": "folder",
+          "children": [
+            {
+              "name": "phpoption",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "src",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "PhpOption",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "LazyOption.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "None.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "Option.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "Some.php",
+                          "type": "file"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "LICENSE",
+                  "type": "file"
+                },
+                {
+                  "name": "composer.json",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "symfony",
+          "type": "folder",
+          "children": [
+            {
+              "name": "polyfill-ctype",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Ctype.php",
+                  "type": "file"
+                },
+                {
+                  "name": "LICENSE",
+                  "type": "file"
+                },
+                {
+                  "name": "README.md",
+                  "type": "file"
+                },
+                {
+                  "name": "bootstrap.php",
+                  "type": "file"
+                },
+                {
+                  "name": "bootstrap80.php",
+                  "type": "file"
+                },
+                {
+                  "name": "composer.json",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "polyfill-mbstring",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Resources",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "unidata",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "caseFolding.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "lowerCase.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "titleCaseRegexp.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "upperCase.php",
+                          "type": "file"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "LICENSE",
+                  "type": "file"
+                },
+                {
+                  "name": "Mbstring.php",
+                  "type": "file"
+                },
+                {
+                  "name": "README.md",
+                  "type": "file"
+                },
+                {
+                  "name": "bootstrap.php",
+                  "type": "file"
+                },
+                {
+                  "name": "bootstrap80.php",
+                  "type": "file"
+                },
+                {
+                  "name": "composer.json",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "polyfill-php80",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Resources",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "stubs",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "Attribute.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "PhpToken.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "Stringable.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "UnhandledMatchError.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "ValueError.php",
+                          "type": "file"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "LICENSE",
+                  "type": "file"
+                },
+                {
+                  "name": "Php80.php",
+                  "type": "file"
+                },
+                {
+                  "name": "PhpToken.php",
+                  "type": "file"
+                },
+                {
+                  "name": "README.md",
+                  "type": "file"
+                },
+                {
+                  "name": "bootstrap.php",
+                  "type": "file"
+                },
+                {
+                  "name": "composer.json",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "vlucas",
+          "type": "folder",
+          "children": [
+            {
+              "name": "phpdotenv",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "src",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Exception",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "ExceptionInterface.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "InvalidEncodingException.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "InvalidFileException.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "InvalidPathException.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "ValidationException.php",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Loader",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "Loader.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "LoaderInterface.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "Resolver.php",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Parser",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "Entry.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "EntryParser.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "Lexer.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "Lines.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "Parser.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "ParserInterface.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "Value.php",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Repository",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "Adapter",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "AdapterInterface.php",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ApacheAdapter.php",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ArrayAdapter.php",
+                              "type": "file"
+                            },
+                            {
+                              "name": "EnvConstAdapter.php",
+                              "type": "file"
+                            },
+                            {
+                              "name": "GuardedWriter.php",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ImmutableWriter.php",
+                              "type": "file"
+                            },
+                            {
+                              "name": "MultiReader.php",
+                              "type": "file"
+                            },
+                            {
+                              "name": "MultiWriter.php",
+                              "type": "file"
+                            },
+                            {
+                              "name": "PutenvAdapter.php",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ReaderInterface.php",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ReplacingWriter.php",
+                              "type": "file"
+                            },
+                            {
+                              "name": "ServerConstAdapter.php",
+                              "type": "file"
+                            },
+                            {
+                              "name": "WriterInterface.php",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "AdapterRepository.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "RepositoryBuilder.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "RepositoryInterface.php",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Store",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "File",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "Paths.php",
+                              "type": "file"
+                            },
+                            {
+                              "name": "Reader.php",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "FileStore.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "StoreBuilder.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "StoreInterface.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "StringStore.php",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Util",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "Regex.php",
+                          "type": "file"
+                        },
+                        {
+                          "name": "Str.php",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Dotenv.php",
+                      "type": "file"
+                    },
+                    {
+                      "name": "Validator.php",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "LICENSE",
+                  "type": "file"
+                },
+                {
+                  "name": "composer.json",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "autoload.php",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "name": "web",
+      "type": "folder",
+      "children": [
+        {
+          "name": "assets",
+          "type": "folder",
+          "children": [
+            {
+              "name": "css",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "style.css",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "fonts",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "bebasneue",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "bebas-neue-v16-latin-regular.woff2",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "moderncipher",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "vermin-vibes",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "misc",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "All Fonts Pack-921d.url",
+                              "type": "file"
+                            },
+                            {
+                              "name": "FSLA_NonCommercial_License-4726.html",
+                              "type": "file"
+                            },
+                            {
+                              "name": "Get Commercial License-cbf1.url",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "VerminVibesV-Zlg3.ttf",
+                          "type": "file"
+                        },
+                        {
+                          "name": "info.txt",
+                          "type": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "bebas-neue-2014-font.zip",
+                      "type": "file"
+                    },
+                    {
+                      "name": "bebas-neue-font.zip",
+                      "type": "file"
+                    },
+                    {
+                      "name": "bebas-neue-v16-latin.zip",
+                      "type": "file"
+                    },
+                    {
+                      "name": "montserrat-font.zip",
+                      "type": "file"
+                    },
+                    {
+                      "name": "montserrat-v31-latin.zip",
+                      "type": "file"
+                    },
+                    {
+                      "name": "north-to-south-font.zip",
+                      "type": "file"
+                    },
+                    {
+                      "name": "poppins-font.zip",
+                      "type": "file"
+                    },
+                    {
+                      "name": "poppins-v24-latin.zip",
+                      "type": "file"
+                    },
+                    {
+                      "name": "roboto-v49-latin.zip",
+                      "type": "file"
+                    },
+                    {
+                      "name": "sacred-hertz-font.zip",
+                      "type": "file"
+                    },
+                    {
+                      "name": "vermin-verile-font.zip",
+                      "type": "file"
+                    },
+                    {
+                      "name": "vermin-vibes-1989-font.zip",
+                      "type": "file"
+                    },
+                    {
+                      "name": "vermin-vibes-4-font.zip",
+                      "type": "file"
+                    },
+                    {
+                      "name": "vermin-vibes-roundhouse-font.zip",
+                      "type": "file"
+                    },
+                    {
+                      "name": "vermin-vibes-v-font.zip",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "montserrat",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "montserrat-v31-latin-regular.woff2",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "poppins",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "poppins-v24-latin-regular.woff2",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "roboto",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "roboto-v49-latin-regular.woff2",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": ".gitkeep",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "images",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "moderncipher",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "mc.png",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": ".gitkeep",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "js",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "main.js",
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "name": "media",
+              "type": "folder",
+              "children": [
+                {
+                  "name": ".gitkeep",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": ".htaccess",
+          "type": "file"
+        },
+        {
+          "name": "index.php",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "name": ".env.example",
+      "type": "file"
+    },
+    {
+      "name": ".gitignore",
+      "type": "file"
+    },
+    {
+      "name": "composer.json",
+      "type": "file"
+    },
+    {
+      "name": "database.sql",
+      "type": "file"
+    },
+    {
+      "name": "filetree.json",
+      "type": "file"
+    }
+  ],
+  "metadata": {
+    "generated": "2025-11-22T10:50:47.356Z",
+    "generator": "FileTree Pro Extension",
+    "version": "0.2.0",
+    "showIcons": false,
+    "maxDepth": 10
+  }
+}
