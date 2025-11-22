@@ -1,4 +1,8 @@
 <?php
+// 1. START SESSION AGAD (Pinaka-unang line dapat)
+// Dahil dito, available na ang $_SESSION sa lahat ng Controllers mo.
+session_start(); 
+
 // Load Composer Autoload
 require_once __DIR__ . '/../vendor/autoload.php';
 
@@ -11,10 +15,10 @@ use App\Core\Database;
 use App\Core\Config;
 use App\Core\Timezone;
 
-// 1. Connect & Load Settings
+// 2. Connect & Load Settings
 $db = new Database();
 Config::load($db);
 Timezone::set($db);
 
-// 2. Start App
+// 3. Start App
 $app = new App();

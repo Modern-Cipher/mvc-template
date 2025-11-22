@@ -1,6 +1,5 @@
 .env
 auth.json
-/vendor/
 composer.lock
 web/assets/uploads/*
 !web/assets/uploads/.gitkeep
