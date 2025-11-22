@@ -1,39 +1,11 @@
-# -----------------------------------
-# 1. SECRETS & ENVIRONMENT
-# -----------------------------------
-.env                # Dito nakatago ang passwords
+.env
 auth.json
-
-# -----------------------------------
-# 2. DEPENDENCIES
-# -----------------------------------
-/vendor/            # Mabigat na library files
+/vendor/
 composer.lock
-
-# -----------------------------------
-# 3. DDEV / DOCKER TRASH
-# -----------------------------------
-.ddev/.gitignore
-.ddev/db_snapshots/
-.ddev/traefik/
-.ddev/mysql_data/
-.ddev/postgres_data/
-
-# -----------------------------------
-# 4. USER UPLOADS
-# -----------------------------------
 web/assets/uploads/*
 !web/assets/uploads/.gitkeep
-
-# -----------------------------------
-# 5. IGNORE SPECIFIC FILES (Request mo)
-# -----------------------------------
-filetree.json       # Yung file structure na ayaw mong isama
-*.sql               # LAHAT ng SQL files (Safe na safe!)
-
-# -----------------------------------
-# 6. SYSTEM JUNK
-# -----------------------------------
+filetree.json
+*.sql
 .vscode/
 .idea/
 .DS_Store
